@@ -1,0 +1,280 @@
+body {
+    background-color: #f3f4f6;
+    color: #111;
+    font-family: "Alumni Sans SC", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Introduccion {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.alumni-sans-sc {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-weight: 700;
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Informacion {
+    text-align: center;
+}
+
+.Informacion p {
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.custom-footer {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    padding: 50px 20px 30px;
+    text-align: center;
+    font-family: 'Alumni Sans SC', sans-serif;
+    border-top: 4px solid #4b4b4b;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-icon {
+    width: 36px;
+    height: 36px;
+    margin: 0 12px;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.footer-icon:hover {
+    transform: scale(1.25);
+    opacity: 1;
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.navbar{
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.footer-note {
+    font-size: 0.875rem;
+    color: #bbb;
+}
+
+.Navbar-brand, .nav-item a {
+    transition: transform 0.25s ease;
+}
+
+.Navbar-brand:hover,
+.nav-item a:hover {
+    transform: scale(1.1);
+}
+
+.CatalogoLink {
+    display: inline-block;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.CatalogoLink:hover {
+    transform: scale(1.1);
+    color: #5a5aff;
+}
+
+.Caja {
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    width: 240px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Caja:hover {
+    transform: scale(1.04);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+}
+
+.Caja img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.Caja h4 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.Caja h5 {
+    font-weight: 400;
+    color: #555;
+}
+
+.Caja p {
+    font-family: 'Verdana', sans-serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.Caja button {
+    font-family: 'Gill Sans', sans-serif;
+    padding: 8px 16px;
+    background-color: #eaeaff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Caja button:hover {
+    background-color: #c2b8ff;
+    color: #111;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.Productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Filtros div {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.Filtros div:hover {
+    transform: scale(1.01);
+}
+
+.Filtros button {
+    font-family: 'Gill Sans', sans-serif;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Filtros button:hover {
+    background-color: #2e2e2e;
+    color: #fff;
+    transform: scale(0.97);
+}
+
+.Redes {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.redes-icon img {
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.redes-icon img:hover {
+    transform: scale(1.2);
+}
+
+.carrusel {
+    margin: 20px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .Caja {
+        width: 90%;
+    }
+
+    .Productos {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .Filtros {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .CatalogoLink {
+        font-size: 1.5rem;
+    }
+
+    .Introduccion {
+        padding: 15px;
+    }
+
+    .carousel-item img {
+        max-height: 250px;
+    }
+
+    .footer-text, .footer-note {
+        font-size: 0.75rem;
+    }
+
+    .footer-icon {
+        width: 28px;
+        height: 28px;
+        margin: 0 5px;
+    }
+
+    .Informacion p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .Caja p, .Caja button {
+        font-size: 14px;
+    }
+}
