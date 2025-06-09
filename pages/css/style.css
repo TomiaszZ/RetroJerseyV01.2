@@ -214,6 +214,61 @@ body {
     text-align: center;
 }
 
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; 
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.producto {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+    height: 25%;
+}
+
+
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.producto h4 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.precio {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.producto.oferta .precio {
+    color: #b30000;
+}
+
+.producto button {
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+
 .redes-icon img {
     width: 60px;
     height: 60px;
